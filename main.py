@@ -9,10 +9,10 @@ import ssl
 import smtplib
 
 def sendEmail(accounts):
-    apppass = 'opavgreboldayxkx'
-    email_sender = 'justin.tqdm@gmail.com'
+    apppass = 'gmail app password'
+    email_sender = 'sender@gmail.com'
     email_password =  apppass
-    email_receiver = 'bobob60637@synclane.com'
+    email_receiver = 'receiver@gmail.com'
     subject = 'Punch fail!!!'
     bodyTxt = 'Failed accounts: ' + str(accounts)
     body = bodyTxt
