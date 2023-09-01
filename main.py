@@ -74,9 +74,7 @@ def launchBrowser():
 delayLevels = 5
 punchFails = []
 accounts = [
-    # ['tinnt', '@1111'],
-    # ['hungtm', 'HungT@2831'],
-    ['huyxp', 'huyxp']
+    # ['admin', '1111'],
 ]
 # Do punch
 for index, account in enumerate(accounts): 
